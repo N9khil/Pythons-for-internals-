@@ -1,25 +1,21 @@
-e = True or False
-
-print(e)
-
 a= "32"
-b=float(a)
+b=float(a) # changes data type to float from string
 print(b)
 
 
-a = int(input("Enter num 1 : "))
+a = int(input("Enter num 1 : ")) # take a integer input from user
 b = int(input("Enter num 2 : "))
 
 print("Sum is : ",a+b)
 
 
-a= float(input("Enter divident : "))
+a= float(input("Enter divident : ")) # take float input from user
 b=int(input("Enter divider : "))
 print(a%b)
 
 # to not give endl in consecutive print statement
 
-print("hello",end="")
+print("hello",end="") # end=""used to not give a default next liner 
 print("nigga")
 
 
